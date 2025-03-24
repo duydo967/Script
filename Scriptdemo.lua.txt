@@ -22,7 +22,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        MinimizeButton({
        Image = "http://www.roblox.com/asset/?id=1000001301",
-       Size = {60, 60},
+       Size = {50, 50},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
        Stroke = false,
@@ -33,6 +33,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "blox fruits"})
 
      local Tab2o = MakeTab({Name = "dead rails"})
+
+     local Tab3o = MakeTab({Name = "gạt cần"})
      
 ------- BUTTON
     
@@ -336,6 +338,18 @@ AddButton(Tab2o, {
 }
 
 loadstring(game:HttpGet('https://skullhub.xyz/loader.lua'))()
+  end
+  })
+
+AddButton(Tab3o, {
+     Name = "auto a-z mingaming",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinHopFull"))()
   end
   })
 
