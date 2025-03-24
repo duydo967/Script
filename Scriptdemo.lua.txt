@@ -35,7 +35,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "Redz Hub wait for update",
+     Name = "Redz Hub (wait for update)",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
@@ -46,7 +46,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
   end
   })
 
-AddButton(Tab1o, {
+AddButton(Tab2o, {
      Name = "speed hub",
     Callback = function()
 	  local Settings = {
@@ -58,7 +58,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/
   end
   })
 
-AddButton(Tab1o, {
+AddButton(Tab3o, {
      Name = "rubu hub",
     Callback = function()
 	  local Settings = {
@@ -70,7 +70,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/RubuRoblox/r
   end
   })
 
-AddButton(Tab1o, {
+AddButton(Tab4o, {
      Name = "xero hub",
     Callback = function()
 	  local Settings = {
@@ -84,3 +84,81 @@ getgenv().Auto_Execute = false
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
   end
   })
+
+AddButton(Tab5o, {
+     Name = "Tsuo Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
+  end
+  })
+
+AddButton(Tab6o, {
+     Name = "hoho hub(key)",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+  end
+  })
+
+AddButton(Tab7o, {
+     Name = "andepzaihub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubNewUpdated.lua"))()
+  end
+  })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
