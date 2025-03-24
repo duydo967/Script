@@ -110,7 +110,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
   })
 
 AddButton(Tab1o, {
-     Name = "andepzaihub",
+     Name = "andepzaihub(wait for update",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
