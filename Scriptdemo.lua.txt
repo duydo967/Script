@@ -46,7 +46,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
   end
   })
 
-AddButton(Tab2o, {
+AddButton(Tab1o, {
      Name = "speed hub",
     Callback = function()
 	  local Settings = {
@@ -58,7 +58,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/
   end
   })
 
-AddButton(Tab3o, {
+AddButton(Tab1o, {
      Name = "rubu hub",
     Callback = function()
 	  local Settings = {
@@ -70,7 +70,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/RubuRoblox/r
   end
   })
 
-AddButton(Tab4o, {
+AddButton(Tab1o, {
      Name = "xero hub",
     Callback = function()
 	  local Settings = {
@@ -85,7 +85,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs
   end
   })
 
-AddButton(Tab5o, {
+AddButton(Tab1o, {
      Name = "Tsuo Hub",
     Callback = function()
 	  local Settings = {
@@ -97,7 +97,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Ts
   end
   })
 
-AddButton(Tab6o, {
+AddButton(Tab1o, {
      Name = "hoho hub(key)",
     Callback = function()
 	  local Settings = {
@@ -109,7 +109,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
   end
   })
 
-AddButton(Tab7o, {
+AddButton(Tab1o, {
      Name = "andepzaihub",
     Callback = function()
 	  local Settings = {
