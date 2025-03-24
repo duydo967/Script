@@ -327,6 +327,18 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Markklol/aw/refs/head
   end
   })
 
+AddButton(Tab2o, {
+     Name = "skull hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet('https://skullhub.xyz/loader.lua'))()
+  end
+  })
+
 
 
 
