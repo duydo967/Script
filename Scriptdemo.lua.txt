@@ -377,6 +377,18 @@ loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-v3-1387
   end
   })
 
+AddButton(Tab2o, {
+     Name = "Tbao hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/refs/heads/main/TbaoHubDeadRails"))()
+  end
+  })
+
 
 
 
