@@ -30,11 +30,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "blox fruits"})
+     local Tab1o = MakeTab({Name = "🍎blox fruits"})
 
-     local Tab2o = MakeTab({Name = "dead rails"})
+     local Tab2o = MakeTab({Name = "🚅dead rails"})
 
-     local Tab3o = MakeTab({Name = "gạt cần"})
+     local Tab3o = MakeTab({Name = "🌕gạt cần"})
      
 ------- BUTTON
     
@@ -350,6 +350,18 @@ AddButton(Tab3o, {
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinHopFull"))()
+  end
+  })
+
+AddButton(Tab1o, {
+     Name = "Ganting hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a5c3af437cd698d64379cf75cacb9281.lua"))()
   end
   })
 
