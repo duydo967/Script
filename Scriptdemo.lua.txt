@@ -389,6 +389,32 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/refs/
   end
   })
 
+AddButton(Tab3o, {
+     Name = "cuttay hub free",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a1498369f289af2671cca90085f23fb8.lua"))()
+  end
+  })
+
+AddButton(Tab3o, {
+     Name = "auto Darkbeard",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+getgenv().team = "Marines" -- Pirates 
+getgenv().webhook = "Link" -- link webhook
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d9c84653a71bfec5cb9cf3195ecae581.lua"))()
+  end
+  })
+
 
 
 
